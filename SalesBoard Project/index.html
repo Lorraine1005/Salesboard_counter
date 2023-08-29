@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Liberty Life Insurance Agent Salesboard 🔔</title>
+  </head>
+  <body>
+    <main class="sales-board-box">
+      <header>
+        <h1 class="heading">Annie's Salesboard 🔔</h1>
+        <div class="sales-agent-img-box">
+          <img
+            src="img/insurance agent.png"
+            alt="Professional African American woman with stylish black braids in professional attire."
+            class="sales-agent-img img-flip"
+          />
+          <img
+            src="img/liberty_logo.png"
+            alt="liberty insurance logo"
+            class="sales-agent-img flipped-img"
+          />
+        </div>
+      </header>
+      <img
+        src="img/liberty_logo.png"
+        alt="liberty insurance logo"
+        class="liberty-insurance-img"
+      />
+      <!-- PRODUCT BUTTONS -->
+      <section class="products-box">
+        <button class="product-btn" id="product-a-btn">Life Cover ⭐️</button>
+        <button class="product-btn" id="product-b-btn">Motor Vehicle 🔥</button>
+      </section>
+      <!-- SALES & ACHIEVEMENTS DISPLAY -->
+      <section class="sales-achievements-display">
+        <div class="sales-display-box">
+          <p class="subheading" id="live-sales-counter-el">Live Sale - 0</p>
+          <p class="emoji-display-el" id="sales-display-el"></p>
+        </div>
+        <div class="achievements-display-box">
+          <p class="subheading" id="live-achievement-counter-el">
+            Live Achievements - 0
+          </p>
+          <p class="emoji-display-el" id="achievements-display-el"></p>
+        </div>
+      </section>
+      <!-- REVENUES & COMMISSIONS DISPLAY -->
+      <section class="revenues-commission-display">
+        <div class="revenue-display-box">
+          <p class="subheading">Total Revenue</p>
+          <p class="total-sum-display-el" id="revenue-el">$0</p>
+        </div>
+        <div class="commission-display-box">
+          <p class="subheading">Total Commision</p>
+          <p class="total-sum-display-el" id="commission-el">$0</p>
+        </div>
+      </section>
+      <section class="reset-section">
+        <button class="reset-btn" id="reset-btn">RESET BOARD</button>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
